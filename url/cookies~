@@ -1,0 +1,20 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".wikia.com"
+  [url-cookie "wikia_beacon_id" "72CiXeY3B8" "Sat, 16 Jan 2016 20:39:17 GMT" "/" ".wikia.com" nil])
+ (".amazon.com"
+  [url-cookie "x-wl-uid" "15R6kVECTGQbJzCGi405od/WjRf/wQJXjMXZDM+Vjau1+V/DSKO8jwRGfCEWBjMyjZNA9S8Nwick=" "01-Jan-2036 08:00:01.00 GMT" "/" ".amazon.com" nil]
+  [url-cookie "session-id-time" "2082787201l" "01-Jan-2036 08:00:01.00 GMT" "/" ".amazon.com" nil]
+  [url-cookie "session-id" "186-6341353-0234730" "01-Jan-2036 08:00:01.00 GMT" "/" ".amazon.com" nil])
+ (".facebook.com"
+  [url-cookie "datr" "FhGcVWMRk_qSH_G23WHuFh1j" "06-Jul-2017 17:49:10.00 GMT" "/" ".facebook.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

@@ -1,0 +1,269 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/drew/Desktop/cator_ruma_site/source/" . "javascripts/")
+ ("/Users/drew/Desktop/cator_ruma_site/" . "source/")
+ ("/Users/drew/Desktop/cator_ruma/site/static/" . "css/")
+ ("/Users/drew/Desktop/cator_ruma/site/" . "static/")
+ ("/Users/drew/Desktop/cator_ruma/" . "site/")
+ ("/Users/drew/Desktop/teatro/static/" . "css/")
+ ("/Users/drew/Desktop/teatro/" . "templates/")
+ ("/Users/drew/Desktop/bootstrap/" . "css/")
+ ("/Users/drew/Desktop/teatro-landing-page/static/" . "css/")
+ ("/Users/drew/Desktop/teatro-landing-page/" . "static/")
+ ("/Applications/" . "0ad.app/")
+ ("/" . "Users/")
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/" . "css/")
+ ("/Users/drew/Desktop/Cator Ruma Site/site/" . "static/")
+ ("/Users/drew/Desktop/Cator Ruma Site/" . "site/")
+ ("/Users/drew/CS Classes/CS 60/" . "calculator/")
+ ("/Users/drew/CS Classes/" . "CS 60/")
+ ("/Users/drew/.emacs.d/elpa/" . "color-theme-sanityinc-solarized-2.28/")
+ ("/Users/drew/projects/ledger/ionic-ledger/www/lib/ionic/" . "js/")
+ ("/Users/drew/projects/ledger/ionic-ledger/www/lib/" . "ionic/")
+ ("/Users/drew/Desktop/tabs-and-navigation-nightly/" . "js/")
+ ("/Users/" . "drew/")
+ ("/Users/drew/projects/ledger/ionic-ledger/www/js/" . "controllers/")
+ ("/Users/drew/Desktop/ExpenseTracker/www/js/" . "services/")
+ ("/Users/drew/Desktop/ExpenseTracker/www/" . "templates/")
+ ("/Users/drew/Desktop/ExpenseTracker/" . "www/")
+ ("/Users/drew/Desktop/" . "cator_ruma_site/")
+ ("/Users/drew/.emacs.d/lisp/" . "evil-org-mode/")
+ ("/Users/drew/.emacs.d/" . "elpa/")
+ ("/usr/local/Cellar/extempore/0.59/examples/" . "core/")
+ ("/usr/local/Cellar/extempore/0.59/" . "examples/")
+ ("/Users/drew/projects/ledger/ionic-ledger/www/" . "js/")
+ ("/Users/drew/projects/ledger/ionic-ledger/" . "www/")
+ ("/Users/drew/projects/ledger/" . "ionic-ledger/")
+ ("/Users/drew/projects/" . "ledger/")
+ ("/Users/drew/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/drew/Desktop/cator_ruma_site/source/"
+ "/Users/drew/Desktop/cator_ruma_site/source/javascripts/"
+ "/Users/drew/Desktop/cator_ruma_site/build/"
+ "/Users/drew/Desktop/cator_ruma_site/data/"
+ "/Users/drew/"
+ "/Users/drew/Desktop/cator_ruma_site/source/layouts/"
+ "/Users/drew/Desktop/cator_ruma_site/source/stylesheets/"
+ "/Users/drew/Desktop/cator_ruma_site/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/js/"
+ "/Users/drew/projects/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/"
+ "/Users/drew/Desktop/blamblam/"
+ "/Users/drew/Desktop/cator_ruma/site/static/css/"
+ "/Users/drew/Desktop/cator_ruma/site/s/"
+ "/Users/drew/Desktop/cator_ruma/site/static/js/"
+ "/Users/drew/Desktop/cator_ruma/site/templates/"
+ "/Users/drew/projects/ledger/ionic-ledger/"
+ "/Users/drew/projects/ledger/"
+ "/Users/drew/Desktop/teatro/templates/"
+ "/Users/drew/Desktop/teatro/static/css/"
+ "/Users/drew/orgasm/"
+ "/Users/drew/Desktop/Cator Ruma Site/site/static/css/"
+ "/Users/drew/Desktop/Cator Ruma Site/site/s/"
+ "/Users/drew/Desktop/Cator Ruma Site/site/"
+ "/Users/drew/Desktop/tabs-and-navigation-nightly/templates/"
+ "/Users/drew/Desktop/teatro-landing-page/static/css/"
+ "/Users/drew/Desktop/teatro-landing-page/templates/"
+ "/Users/drew/Desktop/Cator Ruma Site/site/static/js/"
+ "/Users/drew/Desktop/bootstrap/css/"
+ "/Users/drew/Desktop/Cator Ruma Site/site/static/style/"
+ "/Users/drew/Desktop/"
+ "/Users/drew/Desktop/Cator Ruma Site/"
+ "/Users/drew/CS Classes/CS 60/calculator/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/css/"
+ "/Users/drew/.emacs.d/elpa/"
+ "/Users/drew/.emacs.d/elpa/color-theme-sanityinc-solarized-2.28/"
+ "/Users/drew/.emacs.d/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/lib/ionic/js/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/js/controllers/"
+ "/Users/drew/Desktop/tabs-and-navigation-nightly/js/"
+ "/Users/drew/Desktop/tabs-and-navigation-nightly/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/templates/"
+ "/Users/drew/Desktop/ExpenseTracker/www/"
+ "/Users/drew/Desktop/ExpenseTracker/www/js/"
+ "/Users/drew/projects/ledger/ionic-ledger/www/js/services/"
+ "/Users/drew/.emacs.d/lisp/evil-org-mode/"
+ "/usr/local/Cellar/extempore/0.59/examples/core/"
+ "/usr/local/Cellar/extempore/0.59/examples/contrib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "index.yaml.haml"
+ "index.html.haml"
+ "cator_ruma.js"
+ "index.html"
+ "slides.yaml"
+ "feature.yaml"
+ "index.yaml"
+ ".emacs"
+ ".map.org"
+ "layout.erb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/drew/Desktop/cator_ruma_site/source/" (21975 22002 0 0) "videos/" "stylesheets/" "layouts/" "javascripts/" "index.yaml.haml" "index.html.haml" "images/" "fonts/" "careers.html.haml" "about.html.haml" "_jobs.html.erb" ".index.html.haml.swp" ".DS_Store" ".#index.html.haml" "#index.html.haml#" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/source/javascripts/" (21975 21883 0 0) "js-yaml.min.js" "cator_ruma.js" "bootstrap.min.js" "bootstrap.js" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/build/" (21975 19475 0 0) "videos/" "stylesheets/" "javascripts/" "index.yaml" "index.html" "images/" "fonts/" "careers.html" "about.html" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/" (21975 19558 0 0) "source/" "Gemfile.lock" "Gemfile" "data/" "config.rb" "build/" "bootstrap.json" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/" (21975 19766 0 0) "vlc/" "twitter.org" "tmp/" "Tempest_Music/" "tempest/" "table" "src/" "scene" "research.pdf" "Qt/" "putnam.py" "Public/" "projects/" "poem.org" "pocket.py" "Pictures/" "perfect_numbers/" "orgasm/" "node_modules/" "noah.1080.2013.mp4" "neuraltalk/" "Music/" "muchAdo.org" "Movies/" "mbox" "ltxpng/" "lope.tex" "lope.pdf" "lope.org" "Library/" "leaderboard/" "gutenberg/" "Google Drive/" "first_draft.txt" "first_draft.org" "Dropbox/" "drawing.svg" "Downloads/" "Documents/" "Development/" "Desktop/" "d3/" "CS Classes/" "Cognitive Science/" "Coffeequate/" "Chaos Theory/" "Calibre Library/" "books.org" "boal.org" "BoAl-1998-Legislative-Theatre" "blessed-contrib/" "bin/" "audit.org" "Applications/" ".Xauthority" ".vimrc~" ".vimrc" ".viminfo" ".vim/" ".v8flags.3.14.5.9.drew.json" ".Trash/" ".toggl" ".term2048.scores" ".subversion/" ".ssh/" ".sqlite_history" ".sh_history" ".Scilab/" ".roastbeef/" ".rnd" ".rbenv/" ".ptpython_history" ".projects.org~" ".projects.org" ".profile" ".plugman/" ".pip/" ".passup.json" ".nvimlog" ".nviminfo" ".npm/" ".node-gyp/" ".netrc" ".mysql_history" ".mplayer/" ".Motorola Mobility/" ".middleman/" ".meteorsession" ".meteor/" ".matplotlib/" ".map.org" ".local/" ".lesshst" ".ipython/" ".ipynb_checkpoints/" ".ionic/" ".httpie/" ".htoprc" ".heroku/" ".gvimrc" ".gnome2/" ".gitconfig" ".ghc/" ".gem/" ".filezilla/" ".erlang.cookie" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".designer/" ".cups/" ".cordova/" ".continuum/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundler/" ".bro" ".bower/" ".bashrc" ".bash_profile" ".bash_history" ".bash/" ".autoenv_authorized.tmp" ".autoenv_authorized" ".atom/" ".android/" "../" "./")
+
+ ("/Users/drew/.emacs.d/elpa/" (21974 30173 0 0) "yaml-mode-readme.txt" "yaml-mode-0.0.11/" "with-editor-2.1.0/" "web-mode-12/" "solarized-theme-1.2.2/" "sass-mode-3.0.18/" "popup-0.5.3/" "pkg-info-0.6/" "ox-twbs-readme.txt" "ox-twbs-0.1.0/" "makey-0.3/" "magit-readme.txt" "magit-popup-2.1.0/" "magit-2.1.0/" "let-alist-1.0.4/" "helm-core-1.7.5/" "helm-1.7.5/" "haml-mode-3.1.9/" "git-rebase-mode-1.0.0/" "git-commit-mode-1.0.0/" "git-commit-2.1.0/" "flymake-gjshint-readme.txt" "flymake-gjshint-0.0.6/" "flycheck-tip-readme.txt" "flycheck-tip-0.5.0/" "flycheck-readme.txt" "flycheck-0.23/" "epl-71.4.8098/" "discover-0.3/" "debbugs-0.7/" "dash-2.11.0/" "csv-mode-readme.txt" "csv-mode-1.5/" "color-theme-sanityinc-solarized-readme.txt" "color-theme-sanityinc-solarized-2.29/" "circe-readme.txt" "async-1.3/" "archives/" "adaptive-wrap-0.5/" "ac-helm-readme.txt" "abc-mode-readme.txt" "../" "./")
+
+ ("/Users/drew/orgasm/" (21974 30034 0 0) "projects.org" "original_projects.org" "notational/" "map.org~" "map.org" "first_draft.org" "calendar.org" "boal.org" ".sync/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/data/" (21974 29937 0 0) "slides.yaml" "feature.yaml" "#feature.yaml#" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/source/stylesheets/" (21974 10579 0 0) "normalize.css" "cator_ruma.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "all.css" "../" "./")
+
+ ("/Users/drew/.emacs.d/" (21973 28781 0 0) "url/" "solarized-theme.el" "SessionDesktop.el" "recentf~" "recentf" "lisp/" "image-dired/" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "auto-save-list/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma_site/source/layouts/" (21974 7225 0 0) "layout.erb" "../" "./")
+
+ ("/Users/drew/Desktop/" (21971 44164 0 0) "You-Dont-Know-JS/" "word2vec-read-only/" "teatro_catalina_site/" "tabs-and-navigation-nightly/" "quiz/" "pocket_tags.html" "plays3.html" "plays2.html" "plays1.html" "plays.sql" "plays.py" "plays.db" "plays" "Obergefell vs Hodges.pdf" "Hungarian Letters/" "hung2" "hung.tuple" "hung.html" "hung" "ExpenseTracker/" "eventreg/" "Desktop/" "d3/" "Credit Card Account Access_ Online Statements_files/" "Credit Card Account Access_ Online Statements.html" "Charter Communications.zip" "Charter Communications/" "cator_ruma_site/" ".Misty Mountains.mscz," ".localized" ".If I Ever Fall in Love Again.mscz," ".git/" ".DS_Store" ".backup.db" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/js/" (21962 40742 0 0) "transactions.js" "charting.js" "app.js" ".#charting.js" "../" "./")
+
+ ("/Users/drew/projects/ledger/" (21958 17630 0 0) "venv/" "update_ip_heroku.sh" "update.js" "requirements.txt" "reconcile.js" "Procfile" "patch.js" "ip.py" "ionic-ledger/" "backend/" ".slugignore" ".gitignore" ".git/" ".DS_Store" ".backup.db" "../" "./")
+
+ ("/Users/drew/projects/" (21960 63771 0 0) "wobsite/" "web/" "triad/" "smash/" "scripts/" "repos/" "ranch.lhs" "Project_Euler/" "podrick/" "orgs/" "metrix/" "ledger/" "latex-bingo/" "languages/" "ip/" "hodor.sh" "finance/" "cuescript/" "corewars/" "buckets.c" "BroncoMail/" "badideas/" "backend/" ".ssh/" ".Spotlight-V100/" ".proxy_pid" ".passage" ".opaque/" ".nvpy.cjg" ".iphone/" ".hg/" ".emacs~" ".emacs" ".DS_Store" ".data.4" ".cleans/" "../" "./")
+
+ ("/Users/drew/Applications/" (21706 40897 0 0) "Chrome Apps.localized/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/" (21958 15502 0 0) "README.md" "modal.html" "lib/" "js/" "index.html" "img/" "css/" ".gitignore" "../" "./")
+
+ ("/Users/drew/Desktop/blamblam/" (21954 51447 0 0) "source/" "Gemfile.lock" "Gemfile" "config.rb" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/s/" (21954 18167 0 0) "index.s.html" "header.s.html" "footer.s.html" "careers.s.html" "about.s.html" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/static/css/" (21954 18303 0 0) "cator_ruma.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/" (21954 17007 0 0) "templates/" "static/" "s/" "requirements.txt" "py/" "Procfile" "Makefile" "demo.py" "config.json" "cator_ruma.py" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/static/js/" (21953 13789 0 0) "cator_ruma.js" "bootstrap.min.js" "bootstrap.js" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/static/img/" (21951 53585 0 0) "union.web.jpg" "theatre.web.jpg" "theatre.web.car.jpg" "principals/" "logo.svg" "logo.png" "jpg/" "hospital.web.jpg" "hospital.web.car.jpg" "hogwarts.web.car.jpg" "hats.web.jpg" "favicon.ico" "cra_application.pdf" "com.web.jpg" "com.web.car.jpg" "associates/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/templates/" (21951 48807 0 0) "index.html" "careers.html" "about.html" "#careers.html#" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/" (21947 45262 0 0) "www/" "scss/" "reconcile.js" "plugins/" "platforms/" "package.json" "node_modules/" "ionic.project" "hooks/" "gulpfile.js" "config.xml" "bower.json" ".gitignore" ".bowerrc" "../" "./")
+
+ ("/Users/drew/Desktop/teatro/templates/" (21944 39786 0 0) "Makefile" "index.s.html" "index.html" "header.html" "footer.html" "education.s.html" "education.html" "collaborate.s.html" "collaborate.html" "about.s.html" "about.html" "../" "./")
+
+ ("/Users/drew/Desktop/teatro/static/css/" (21944 36188 0 0) "home.sass" "home.css.map" "home.css" "bootstrap.min.css" "bootstrap.css" "base.sass" ".sass-cache/" "../" "./")
+
+ ("/Users/drew/Desktop/teatro/" (21944 34635 0 0) "templates/" "teatro.py" "static/" "requirements.txt" "README.md" "Procfile" "LICENSE" "env/" "demo.py" ".index.html.swp" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/teatro/static/img/" (21944 24105 0 0) "stage_with_logo.web.jpg" "mirror.web.jpg" "mirror.jpg" "maximo.web.jpg" "maximo.jpg" "makeup.web.xcf" "makeup.web.jpg" "makeup.jpg" "logo.web.png" "logo.png" "group.web.jpg" "group.jpg" "dwarves.web.xcf" "dwarves.web.jpg" "dwarves.jpg" "cat.web.jpg" "cat.jpg" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/site/static/" (21942 23725 0 0) "vid/" "js/" "img/" "fonts/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/cator_ruma/" (21935 53759 0 0) "site/" "Cator Ruma CMYK Vector Logo.white fill.eps" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/s/" (21938 45248 0 0) "index.s.html" "header.s.html" "footer.s.html" "about.s.html" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/css/" (21938 45112 0 0) "cator_ruma.css~" "cator_ruma.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/" (21938 44915 0 0) "static/" "s/" "mv/" "Makefile" "index.html" "config.json" "about.html" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/" (21938 27468 0 0) "vid/" "js/" "img/" "fonts/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/js/" (21935 62958 0 0) "cator_ruma.js" "bootstrap.min.js" "bootstrap.js" "../" "./")
+
+ ("/Users/drew/Desktop/teatro/static/" (21933 50576 0 0) "teatro-logo.xcf" "logo.pnm" "js/" "img/" "fonts/" "font-awesome/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/teatro-landing-page/static/css/" (21937 10950 0 0) "landing-page.sass" "landing-page.css" "bootstrap.min.css" "bootstrap.css" "base.sass" ".sass-cache/" "../" "./")
+
+ ("/Users/drew/Desktop/teatro-landing-page/" (21937 7166 0 0) "templates/" "teatro.py" "static/" "requirements.txt" "README.md" "Procfile" "LICENSE" "env/" ".index.html.swp" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/teatro-landing-page/static/" (21933 50576 0 0) "teatro-logo.xcf" "logo.pnm" "js/" "img/" "fonts/" "font-awesome/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/teatro-landing-page/templates/" (21936 25011 0 0) "index.html" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/img/" (21935 57703 0 0) "union.jpg" "theatre.tif" "theatre.jpg" "logo.png" "cr_logo.svg" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/" (21935 53759 0 0) "site/" "Cator Ruma CMYK Vector Logo.white fill.eps" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/bootstrap/css/" (21935 48691 0 0) "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "../" "./")
+
+ ("/Users/drew/Desktop/bootstrap/" (21935 47999 0 0) "js/" "fonts/" "css/" "config.json" "../" "./")
+
+ ("/Users/drew/Desktop/Cator Ruma Site/site/static/style/" (21934 46601 0 0) "cator_ruma.css" "../" "./")
+
+ ("/Applications/0ad.app/" (21568 31313 0 0) "Contents/" "../" "./")
+
+ ("/Applications/" (21930 59011 0 0) "zoom.us.app/" "VLC.app/" "VideoGlide/" "uTorrent.app/" "Utilities/" "Uninstall SafeConnect.app/" "Unbound.app/" "Time Machine.app/" "The Unarchiver.app/" "TextEdit.app/" "TeX/" "TechnicLauncher.jar" "System Preferences.app/" "Symantec Solutions/" "Stickies.app/" "Steam.app/" "Spotify.app/" "Skype.app/" "Simplenote.app/" "Send to Kindle/" "Seil.app/" "SDFormatter.app/" "scilab-5.5.1.app/" "SafeConnect.app/" "Safari.app/" "Reminders.app/" "QuickTime Player.app/" "Preview.app/" "Photos.app/" "Photo Booth.app/" "PDF OCR X Community Edition.app/" "Notes.app/" "Notational Velocity.app/" "MuseScore.app/" "Mission Control.app/" "Minecraft.app/" "Microsoft Silverlight/" "Messages.app/" "Maps.app/" "Mail.app/" "MacVim.app/" "Macaw.app/" "Launchpad.app/" "Kindle.app/" "Karabiner.app/" "iTunes.app/" "iTerm.app/" "Inkscape.app/" "iMovie.app/" "Image Capture.app/" "iBooks.app/" "Hearthstone/" "HandBrake.app/" "Google Drive.app/" "Google Chrome.app/" "Gimp.app/" "GarageBand.app/" "Game Center.app/" "Font Book.app/" "Flux.app/" "Firefox.app/" "FileZilla.app/" "fetching.app/" "FaceTime.app/" "Emacs" "EasyAudioRecorderLite.app/" "DVD Player.app/" "Dropbox.app/" "Dictionary.app/" "Dashboard.app/" "Contacts.app/" "CMake 2.8-12.app/" "Clear.app/" "Chess.app/" "cd to.app/" "calibre.app/" "Calendar.app/" "Calculator.app/" "BitTorrent Sync.app/" "Battle.net.app/" "Automator.app/" "Audacity.app/" "Atom.app/" "App Store.app/" "Apache CouchDB.app/" "Anki.app/" "All-in Yoga.app/" "Alfred 2.app/" "0ad.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Downloads/" (21924 1319 0 0) "zoomusLauncher.zip" "zoomusLauncher.app/" "zoomusLauncher 2.app/" "zoomusLauncher (1).zip" "ZoomInstaller.pkg" "YouTube - Garth Brooks - Friends in Low Places.mp4" "yellow face.pdf" "XKCD Graphing.html.pdf" "Xhosa Misconceptions.pdf" "www_united_com_web_en_US_apps_booking_flight_confirmRevenue.pdf" "WWCHD-2-18-15(1) copy.pdf" "workshop_popularity.csv" "workshop_popularity - workshop_popularity.csv" "workshop_popularity - workshop_popularity (1).csv" "wkhtmltox-0.12.2.1_osx-cocoa-x86-64.pkg" "VoicePaperChoirandChamberSingers.docx" "VoicePaperASTEPCabaret.docx" "vlc-2.1.5.dmg" "vim74/" "vim-7.4.tar.bz2" "VideoGlide OS X 1.5.4.dmg" "Validation.flv" "v2.02.zip" "v2.02/" "uTorrent.dmg" "URLLink.acsm" "Unit_Circle_Values.apkg" "Understanding_and_Using_C_Pointers.epub" "Unbound_Trial_1.0.6.dmg" "tree.zip" "Transcript_BSCS_2012.doc" "transactions.csv" "transactions (1).csv" "tMoV ii,5.pdf" "tMoV ii,3.pdf" "tMoV ii,2.pdf" "tMoV Contract.pdf" "tMoV Contract (1).pdf" "THTR 42 Video Project Script.docx" "THTR 21 S 14.docx" "THTR 21 S 14 (3).docx" "THTR 21 S 14 (2).docx" "THTR 21 S 14 (1).docx" "THTR 124 F14 Acting IV - Dialect.doc" "The_CidText (1).doc" "The Phantom of the Opera (2004)/" "The Patriarch__ Abram_ Abraham_and Ibrahim.mp4" "The disconnect Mod 1.pdf" "THE DECEITS OF SCAPIN.pdf" "TH 43 Syl Spring 14.docx" "TeatroCatalina_CNote.pdf" "TeatroCatalina_CNote.indd" "Teatro Catalina math problem.docx" "Team Buddies [U] [SLUS-00869].7z" "Team Buddies (Europe) (En,Fr,De).7z" "Team Buddies (1).7z" "tabs-and-navigation-nightly.zip" "Symantec_Endpoint_Protection_12.1.5_Mac_Client_EN.zip" "Symantec Endpoint Protection 2.dmg" "SYLLABUS_P43_S15.docx" "STRUCT.ANALYSIS PAPER.docx" "STRUCT.ANALYSIS PAPER (1).docx" "Steves_Trig_Identities.apkg" "SQLite_Professional.app.zip" "SQLite Professional.app/" "SpotifyInstaller.zip" "somepics.zip" "solarized.zip" "solarized/" "Skype_6.15.60.330.dmg" "simple-css-sliding-underline-menu.zip" "simple-css-sliding-underline-menu/" "Silverlight.dmg" "Silicon Valley S01E08 Dick Joke -Mean Jerk Time- (Full).mp4" "Signature.jpg" "SHREK 2 Soundtrack/" "ServicesManagerInstaller.zip" "Services Manager Installer.pkg" "server.zip" "server/" "SendToKindleForMac-installer-v1.0.0.218.pkg" "SDFormatter_4.00B (1).pkg" "scu-events.ics" "SCU Student Employee EHS Orientation_17Feb2015.pptx" "SCPH5502.BIN" "SCPH-5552.BIN" "scilab-5.5.1-x86_64_yosemite.dmg" "scilab-5.5.1-x86_64.dmg" "scilab-5.5.1-x86_64 (1).dmg" "sched.csv" "sched (1).csv" "satan_Satan.pdf" "SafeConnectMacInstaller.zip" "SafeConnectMacInstaller.pkg" "SafeConnectMacInstaller 3.pkg" "SafeConnectMacInstaller 2.pkg" "SafeConnectMacInstaller (3).zip" "SafeConnectMacInstaller (2).zip" "SafeConnectMacInstaller (1).zip" "ROMJUl.docx" "Rise of Monotheism__2nd Isaiah.pdf" "Response.doc" "research.org" "research.html" "Research Proposal Guidelines.docx" "Research paper assignment.docx" "Rehearsal Rules.pages" "Reading Satan_Remembering the Other.pdf" "REACTION PAPERS.docx" "REACTION PAPERS (1).docx" "Radiant.Player.zip" "Radiant Player.app/" "quiz3soln.pdf" "quiz2soln.pdf" "qt-mac-opensource-1.5.0-x64-online.dmg" "Punctuation.jpg" "PSO.zip" "promise.odp.cpgz" "promise.odp" "Project 3 engr 143h.docx" "private-instruction-request-piano.doc" "PrepNotes_Wk_2_MLK__RSOC9_fall2014.doc" "practicefinal.pdf" "practicefinal (1).pdf" "pracfinalsolnmath14.pdf" "Postgres.app/" "Postgres-9.4.1.2.zip" "popup.js" "Photos.zip" "Photos/" "Phil 12a Exam 2014.docx" "pg2270.mobi" "pg2243.mobi" "Peters chapter 2- Book Shaping_The Making of a Canon.pdf" "Peters chapter 1- Sacred Words_Sacred Book.pdf" "peepcode-git.pdf" "PDF OCR X Community Edition 2.0.8.dmg" "pcsxr-78288.tar.bz2" "PCKeyboardHack-10.4.0.dmg" "p02qr8qh-witness_20130704-0900a.mp3" "Overture to Course.mp4" "Other Guys Song.pdf" "OpenEmu_1.0.4-experimental.zip" "OpenEmu.app/" "OP.pdf" "OP (1).pdf" "onlineStatement.pdf" "onlineStatement (3).pdf" "onlineStatement (2).pdf" "onlineStatement (1).pdf" "ns9tks-vim-fuzzyfinder-4014e500fb8d.zip" "NOOBS_v1_3_10.zip" "NOOBS_v1_3_10/" "node-v0.10.26.pkg" "ng-cordova-master.zip" "ng-cordova-master/" "MuseScore-1.3.dmg" "multiplication_tables_from_11_to_30.apkg" "Multiplication_Facts.apkg" "mr1.mp3.m3u" "mr1.aac.m3u" "Monotheism__Judaism_Christianity_Islam.mp4" "Module One Short Essay Prompt.docx" "Module 2 Infographic.png" "Modern Dance I F13 Grading Rubric and Dance Review Prompts.docx" "Modern Dance I Book Review Assignment.docx" "Modern Dance I Book Review Assignment (1).docx" "Mod 3 Infographic2.pdf" "MLK Letter_BirminghamJail1964text_annotations_rev.doc" "minecraftforge-installer-1.6.2-9.10.1.871.jar" "Minecraft.dmg" "Minecraft (2).dmg" "Minecraft (1).dmg" "midterm2soln.pdf" "midterm1soln.pdf" "Medical and Emergency Contact form 2-15-2.docx" "MDM_Installer_2.1.8.dmg" "Mathematical_memorization.apkg" "math14syl.pdf" "math14syl (2).pdf" "math14syl (1).pdf" "Mailbox-Beta-0.3.6.dmg" "MacVim-snapshot-70-Mountain-Lion.tbz" "MacTeX.pkg" "Machiavelli.docx" "Macaw1.0.dmg" "lion_attack2.ogg" "LimeChat_2.41.tbz" "LimeChat_2.41/" "LightTableMac.zip" "LightTable/" "libdvdcss.pkg" "Lazzeri-2.jpeg" "Layla (Unplugged) Piano Cover.mp3" "L'enfantEssay.docx" "kindle-jailbreak-0.12.N.zip" "Kimura I.docx" "KILLSTREAK - Janus.zip" "KILLSTREAK - Janus (1).zip" "KILLSTREAK - Janus (1)/" "kickstarter-logo-k-grey.eps" "KeyRemap4MacBook-9.2.0.dmg" "Karabiner-10.2.0.dmg" "Jury-Form.doc" "Jojo-Schmitz-batch_export-fb788f3.zip" "jetzt-master.zip" "jetzt-master/" "jdk-8u25-macosx-x64.dmg" "JavaForOSX2014-001.dmg" "JavaForOSX2014-001 (1).dmg" "iTerm2_v1_0_0.zip" "Islamic Hagar and Her Family.pdf" "Ishmael Instructs Isaac_Abraham.pdf" "Ireland Stereotypes.pptx" "Ireland Stereotypes.pdf" "ionicons-2.0.1.zip" "ionicons-2.0.1/" "ionic-simple-navigation-sample-with-nav-buttons.zip" "installgoogledrive.dmg" "Install Spotify.app/" "ink-1.0.5.zip" "ink-1.0.5/" "infographic3.png" "Infographic3.pdf" "infographic2.png" "Infographic2.pdf" "Infographic1.pdf" "Infographic 3_Monotheism.png" "Infographic 2.jpg" "Infograph 2.jpeg" "info3-shen.jpg" "Info Graphic 2.pdf" "IMSLP110540-PMLP194704-01-CANCION_DE_CUNA.mp3" "IMG_2128.JPG" "IFComp2014.zip" "icalendarevents.ics" "icalendar.el" "homepage.jpg" "homepage (1).jpg" "Hi! I'm Paul..mp4.dmg" "heroku-toolbelt.pkg" "HBOT Canons.pdf" "HandBrake-0.9.9-MacOSX.6_GUI_x86_64.dmg" "haas.pdf" "Gowans, An Interpretation of the Not-Self Doctrine.pdf" "GoogleVoiceAndVideoSetup.dmg" "Google.Music.zip" "google.csv" "Google Music.app/" "google (1).csv" "Go the Distance.pdf" "Go the Distance (1).pdf" "GL Electronic 10 docs compressed.zip" "GL Electronic 10 docs compressed (1).zip" "GL Electronic 10 docs compressed/" "gist5288710-61369b3ef75cfc9096b1588633586454458cc142.tar.gz" "gist5288710-61369b3ef75cfc9096b1588633586454458cc142/" "GewertzAugustoBoalsTh.pdf" "Georgia Stereotypes.pdf" "Garth Brooks - The Ultimate Hits/" "Garth Brooks - The Hits (1994)/" "Friends.mp3" "Flux34-3.zip" "FlightReservation.pdf" "Firefox 27.0.1.dmg" "Final Synthesis Paper Prompt.docx" "Final Exam Questions.docx" "Final Exam Questions (2).docx" "Final Exam Questions (1).docx" "FileZilla_3.7.4.1_i686-apple-darwin9.app.tar.bz2" "fileinput-pseudo.zip" "fetching.dmg" "fetching (1).dmg" "fasc6a.ps.gz" "Fantastical_2.0.7.zip" "Fantastical_2.0.2.zip" "Fantastical 2.app/" "explodeparts-v7.3.zip" "ExpenseTracker.zip" "ether-etherpad-lite-cbfc833/" "ether-etherpad-lite-1.5.0-1-gcbfc833.zip" "Essential_Spanish_Vocabulary_Top_5000.apkg" "EssayGradingStandardsSt.Anal.doc" "EssayGradingStandardsSt.Anal (1).doc" "ENGR 143H Projects.zip" "ENGR 143H Projects/" "ENGR 143H Demos/" "emacs.iconset.zip" "emacs.iconset/" "ecmosx.sit" "early alternatives to realism.pptx" "Drew's Teatro Catalina Grant.docx" "DramaturgySyl-JB-Fall2014.pdf" "DramaturgySyl-JB-Fall2014 (2).pdf" "DramaturgySyl-JB-Fall2014 (1).pdf" "Dramaturgy Genre Analysis Paper.docx" "Dramaturgy Genre Analysis Paper (1).docx" "DPA Syllabus.docx" "DPA 4 Productions Form.docx" "Download.pdf" "download.csv" "Doodle.xls" "Doodle - Poll.csv~" "Doodle (1).xls" "Doodle (1) (1).xls" "dlazzeri1@gmail.com.ical.zip" "diversity_log.csv" "diversity_log (5).csv" "diversity_log (4).csv" "diversity_log (3).csv" "diversity_log (2).csv" "diversity_log (1).csv" "diveintopython-pdf-5.4.zip" "diveintopython-pdf-5.4 (1).zip" "diveintopython-html-flat-5.4.zip" "diveintopython-html-5.4.zip" "diveintopython-html-5.4 (1).zip" "diveintopython-5.4 5/" "diveintopython-5.4 4/" "diveintopython-5.4 3/" "diveintopython-5.4 2/" "diveintopython-5.4/" "disc leadership performance prompt.docx" "demo.zip" "demo/" "default.html" "d3.zip" "CustomReport1651904.xls" "CustomReport1651904 (7).xls" "CustomReport1651904 (6).xls" "CustomReport1651904 (5).xls" "CustomReport1651904 (4).xls" "CustomReport1651904 (3).xls" "CustomReport1651904 (2).xls" "CustomReport1651904 (1).xls" "CTR - Crash Team Racing.7z" "Conflict and Coexistence in Jewish Interpretation.pdf" "comparisons.csv" "Community.S05E02.HDTV.x264-LOL.mp4" "Community S05E01 HDTV x264-LOL[ettv]/" "Common_Math_Identities__Formulas.apkg" "comic-neue-1.1.zip" "comic-neue-1.1/" "coin213741.gif" "CognitiveScience.docx" "Cockney Research .pdf" "cmu_us_rms.flitevox" "cmake-2.8.12.1-Darwin64-universal.dmg" "Citation.enw" "chp 15.pdf" "chemero.docx" "cdto_2_6/" "cbsidlm-sp1_0_150-PDF_OCR_X_Community_Edition-SEO-75000192.dmg" "Callbacks.pdf" "calibre-2.14.0.dmg" "Calc 13 notes.pdf" "BSCS_ApplicationForm_201403.doc" "BSCS_ApplicationForm_201403 (1) (1).doc" "Brodje - Learning to learn words.doc" "Brockett Ch23 p 518-534.pdf" "Brockett Ch21 pp 479-486.pdf" "Brockett Ch19 pp 439-447.pdf" "Brockett Ch 17 & 18 pp 390-418.pdf" "bootstrap-custom.zip" "bootstrap-custom/" "bootstrap-3.1.1-dist.zip" "bootstrap-3.1.1-dist/" "Boal Interview.pdf" "BitTorrent_Sync.dmg" "BitTorrent.dmg" "Bethard - Searching Past Search Engines.doc" "Bethard - Searching Past Search Engines (1).doc" "basic.ics" "Bald-Soprano-script.pdf" "background-size-polyfill-gh-pages.zip" "background-size-polyfill-gh-pages/" "audacity-macosx-ub-2.0.5.dmg" "Attach0.amr" "Attach0 (1).amr" "atom.zip" "atom-shell-v0.20.2-darwin-x64-symbols.zip" "artaud.pptx" "Artaud theatre of cruelty.pdf" "Aquamacs-Emacs-3.2.dmg" "Aquamacs-Emacs-3.1a.dmg" "Aquamacs-Emacs-3.0a.dmg" "Aquamacs-Emacs-3.0a (1).dmg" "Approved-Mail-Houses-2.doc" "ApplicationForm.doc" "Apache-CouchDB-1.6.1.zip" "Antigone2.pdf" "anki-2.0.31.dmg" "anki-2.0.28.dmg" "anki-2.0.24.dmg" "Animal.pdf" "android-sdk_r24.0.1-macosx.zip" "android-sdk_r23-macosx.zip" "android-sdk-macosx/" "Anaconda-1.9.1-MacOSX-x86_64.sh" "Alignment - the best prevention.pdf" "Alfred_2.1.1_227.zip" "Advent_Chamber_Orchestra_-_14_-_Vivaldi_-_Credo_Crucifixus.mp3" "Advent_Chamber_Orchestra_-_13_-_Vivaldi_-_Credo_Et_Carnatus_Est.mp3" "adt-bundle-mac-x86_64-20140321.zip" "adt-bundle-mac-x86_64-20140321/" "adt-bundle-mac-x86_64-20131030.zip" "AbsenteeBallotFormCO.pdf" "Abraham_Sarah_and Hagar Bios.pdf" "Abraham Bio no.2.pdf" "a52dec-0.7.4.tar.gz" "[TorrentDownloads.me]_2014 - The Imitation Game.torrent" "8ggjx.jpg" "6_StmntConf_yellow.pdf" "60_route_map.gif" "500.shtml" "4_newhire_data_sheet.pdf" "404.shtml" "3_StudentEmployementMandatoryTrng_Winter.pdf" "390672_258366267546244_650180661_n.jpg" "2_GraderResponsibilities_blue_UPDATE.pdf" "23FL16-23-tree.ppt" "2014_Summer Session II Syllabus__SCU__Guerrero.pdf" "2.EnglishTheatre.pptx" "1800139_10201794529732293_1836410759_o.jpg" "18 The Dance.mp3" "14493.jpeg" "1404151348_(g) Timmerman--Prisoner Without a Name.txt" "1402263422206.jpg" "1392-5235-1-PB.pdf" "1392-5235-1-PB (1).pdf" "116335 - Order Invoice.pdf" "10500526_10152554045438099_3351524331503056436_n.jpg" "1001_Most_Useful_Spanish_Words_and_Sentences_TTS_accurate.apkg" "1.Renaissance Ideas & ItalianTheatre.pptx" "1.Renaissance Ideas & ItalianTheatre (2).pptx" "1.Renaissance Ideas & ItalianTheatre (1).pptx" "1-billion-word-language-modeling-benchmark-r13output.tar.gz" "0ad-0.0.17-alpha-osx64.dmg" "07 Luck Be A Lady.zip" "07 Luck Be A Lady.pdf" ".localized" ".DS_Store" "-THTR42Syllabus2015.pdf" "-THTR42Syllabus2015 (2).pdf" "-THTR42Syllabus2015 (1).pdf" "-SHE STOOPS TO CONQUER.doc" "(p) Natural Law Handout for Phil 11a.docx" "(o) Republic excerpt.pdf" "(n) MLK Letter.pdf" "(m) Judgment at Nuremberg Screenplay excerpt.pdf" "(l) Cicero Readings.pdf" "(k) Judges' Trial Link.docx" "(j) Reel Justice on Nuremberg.pdf" "(g) Timmerman--Prisoner Without a Name.pdf" "(g) Timerman--Prisoner Without a Name.pdf" "(g) Timerman--Prisoner Without a Name (1).pdf" "(d2) Bingham's Notion of the Rule of Law Handout.docx" "(c3) Bingham Rule of Law Part III.pdf" "(c2) Bingham Rule of Law Part II.pdf" "(c2) Bingham Rule of Law Part II (4).pdf" "(c2) Bingham Rule of Law Part II (3).pdf" "(c2) Bingham Rule of Law Part II (2).pdf" "(c2) Bingham Rule of Law Part II (1).pdf" "(c1) Bingham Rule of Law Part I.pdf" "(c1) Bingham Rule of Law Part I (3).pdf" "(c1) Bingham Rule of Law Part I (2).pdf" "(c1) Bingham Rule of Law Part I (1).pdf" "(b) Quarter Schedule for Phil12a Spring 2014.docx" " .m4a" "../" "./")
+
+ ("/Users/drew/Downloads/simple-css-sliding-underline-menu/" (21924 1319 0 0) "README.txt" "license.txt" "js/" "index.html" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/css/" (21920 46553 0 0) "style.css" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/plugins/" (21646 8540 0 0) "org.apache.cordova.device/" "org.apache.cordova.console/" "ios.json" "com.ionic.keyboard/" "android.json" "../" "./")
+
+ ("/Users/drew/CS Classes/CS 60/calculator/" (21265 2532 0 0) "main.cpp" "calculator.ui" "calculator.pro.user.5640aab" "calculator.pro.user" "calculator.pro" "calculator.h" "calculator.cpp" "biguint.h" "biguint.cpp" "../" "./")
+
+ ("/Users/drew/CS Classes/CS 60/" (21307 33440 0 0) "notes/" "homework/" "calculator/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/CS Classes/" (21317 34881 0 0) "CS 61/" "CS 60/" ".DS_Store" "../" "./")
+
+ ("/Users/drew/.emacs.d/elpa/color-theme-sanityinc-solarized-2.28/" (21833 32672 0 0) "sanityinc-solarized-light-theme.elc" "sanityinc-solarized-light-theme.el" "sanityinc-solarized-dark-theme.elc" "sanityinc-solarized-dark-theme.el" "color-theme-sanityinc-solarized.elc" "color-theme-sanityinc-solarized.el" "color-theme-sanityinc-solarized-pkg.el" "color-theme-sanityinc-solarized-autoloads.el~" "color-theme-sanityinc-solarized-autoloads.el" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/templates/" (21904 61774 0 0) "statistics.tpl.html" "modal.tpl.html" "../" "./")
+
+ ("/Users/drew/Desktop/tabs-and-navigation-nightly/" (21904 62861 0 0) "templates/" "README.txt" "license.txt" "js/" "index.html~" "index.html" ".DS_Store" "#index.html#" "../" "./")
+
+ ("/Users/drew/Desktop/tabs-and-navigation-nightly/templates/" (21904 59171 0 0) "tabs.html" "nav-stack.html" "home.html" "facts2.html" "facts.html" "contact.html" "about.html" "../" "./")
+
+ ("/Users/drew/Desktop/tabs-and-navigation-nightly/js/" (21904 60689 0 0) "index.js" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/lib/ionic/js/" (21905 65042 0 0) "ionic.min.js" "ionic.js" "ionic.bundle.min.js" "ionic.bundle.js" "ionic-angular.min.js" "ionic-angular.js" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/lib/ionic/" (21905 64793 0 0) "scss/" "README.md" "js/" "fonts/" "css/" "bower.json" ".bower.json" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/lib/" (21814 61337 0 0) "underscore-min.js" "pouchdb-min.js" "ionic/" "d3-min.js" "collide/" "Chart.js/" "angular-ui-router/" "angular-sanitize/" "angular-chart.js/" "angular-animate/" "angular/" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/js/controllers/" (21904 62664 0 0) "transaction.controller.js~" "transaction.controller.js" "stats.controller.js~" "stats.controller.js" "../" "./")
+
+ ("/Users/drew/Desktop/ExpenseTracker/www/" (21904 58265 0 0) "templates/" "lib/" "js/" "index.html" "img/" "css/" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/drew/Desktop/ExpenseTracker/www/js/" (21903 26758 0 0) "services/" "models/" "controllers/" "app.routes.js" "app.js" "../" "./")
+
+ ("/Users/drew/Desktop/ExpenseTracker/www/templates/" (21903 25992 0 0) "sidemenu.tpl.htm" "overview.tpl.htm" "history.tpl.htm" "editBudget.tpl.htm" "detailsGrid.tpl.htm" "createExpense.tpl.htm" "categoryHistory.tpl.htm" "categories.tpl.htm" ".#overview.tpl.htm" "#overview.tpl.htm#" "../" "./")
+
+ ("/Users/drew/projects/ledger/ionic-ledger/www/js/services/" (21903 10081 0 0) "transaction.service.js~" "transaction.service.js" "toast.service.js~" "toast.service.js" "data.service.js~" "data.service.js" "charting.service.js~" "charting.service.js" "../" "./")
+
+ ("/Users/drew/.emacs.d/elpa/debbugs-0.7/" (21903 6347 0 0) "README" "dir" "Debbugs.wsdl" "debbugs.texi" "debbugs.info" "debbugs.elc" "debbugs.el" "debbugs-ug.texi" "debbugs-ug.info" "debbugs-pkg.elc" "debbugs-pkg.el" "debbugs-org.elc" "debbugs-org.el" "debbugs-gnu.elc" "debbugs-gnu.el" "debbugs-browse.elc" "debbugs-browse.el" "debbugs-autoloads.el~" "debbugs-autoloads.el" "ChangeLog" "../" "./")
+
+ ("/Users/" (21570 53406 0 0) "Shared/" "Guest/" "drew/" ".localized" "../" "./")
+
+ ("/Users/drew/Desktop/ExpenseTracker/www/js/services/" (21893 37182 0 0) "guid.service.js" "expense.service.js" "data.service.js" "category.service.js" "budget.service.js" "../" "./")
+
+ ("/Users/drew/Desktop/ExpenseTracker/" (21892 47065 0 0) "www/" "scss/" "resources/" "README.md" "plugins/" "platforms/" "package.json" "ionic.project" "hooks/" "gulpfile.js" "config.xml" "bower.json" ".gitignore" ".bowerrc" "../" "./")
+
+ ("/usr/local/Cellar/extempore/0.59/examples/core/" (21833 45832 0 0) "xthread.xtm" "topclock_metro.xtm" "temporal_recursion_101.xtm" "simd_audio.xtm" "polysynth.xtm" "osc_101.xtm" "nbody_lang_shootout.xtm" "mtaudio.xtm" "fmsynth.xtm" "extempore_lang.xtm" "caas-example.xtm" "audio_101.xtm" "80211.xtm" "#fmsynth.xtm#" "../" "./")
+
+ ("/Users/drew/.emacs.d/lisp/evil-org-mode/" (21747 44823 0 0) "README.org" "evil-org.el" ".git/" "../" "./")
+
+ ("/Users/drew/.emacs.d/lisp/" (21835 12502 0 0) "tree/" "tags-tree.el" "reddit.el" "imenu/" "extempore.el" "evil-org-mode/" "evil-leader.el" "evil/" "color-theme-solarized.el" "ace-jump-mode/" "../" "./")
+
+ ("/usr/local/Cellar/extempore/0.59/examples/contrib/" (21663 27698 0 0) "spectral_meter.xtm" "slideshow.xtm" "shadowmap.xtm" "shaderlight.xtm" "multilight.xtm" "mediaplayer.xtm" "lv2.xtm" "kinect_fire.xtm" "kinect.xtm" "horde3d_knight.xtm" "gstvideo_multi.xtm" "gstvideo.xtm" "extempore-fortran/" "drawing.xtm" "curl.xtm" "ceph.xtm" "bullet.xtm" "../" "./")
+
+ ("/usr/local/Cellar/extempore/0.59/examples/" (21663 27698 0 0) "external/" "core/" "contrib/" "../" "./")
+
+ ("/usr/local/Cellar/extempore/0.59/" (21833 31402 0 0) "top.make" "tests/" "test-examples.sh" "test-all.sh" "src/" "runtime/" "README.md" "msvc/" "libs/" "INSTALL_RECEIPT.json" "include/" "extras/" "extempore" "examples/" "config/" "compile-stdlib.sh" "compile-stdlib-core.sh" "clean.bat" "clean.bash" "build/" "all.bat" "all.bash" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

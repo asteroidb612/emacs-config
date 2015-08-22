@@ -1,0 +1,128 @@
+cd js
+ack module
+services/data.service.js
+find-file services/transaction.service.js 
+app.js  controllers  servicesls
+head controllers/* services/*
+head controllers/*
+cd controllers/
+clean
+ls
+clean
+cd ../services/
+find-file data
+cd ..
+ack watch
+find-file controllers/stats.controller.js 
+ls
+clean
+ls
+rm app.routes.js\~
+ls
+mkdir templates
+rm templates/
+ls
+rm -rf templates
+ls
+cd ~/Desktop/ExpenseTracker/www/
+ls
+tree templates/
+find-file templates/overview.tpl.htm 
+cd -
+ls
+cd ..
+ls
+mkdir templates
+ls
+mv modal.html templates/
+ls
+mv templates/modal.html templates/modal.tpl.htm
+ls
+head README.md 
+rm README.md 
+ls
+git rm README.md
+ls
+cd j
+cd js
+ls
+ack Span
+find-file controllers/stats.controller.js 
+findls-file templates/overview.tpl.htm 
+ls
+cd ..
+ls
+mv templates/overview.tpl.htm templates/overview.tpl.html
+mv templates/statistics.tpl.htm
+mv templates/statistics.tpl.htm templates/statistics.tpl.html
+ls
+ls templates/
+cd templates/
+ls
+mv modal.tpl.htm modal.tpl.html
+:w
+ls
+cd .emacs.d
+ls
+tree
+find . | grep solarized
+find . | grep definitions
+find . -name "solarized-definitions.el"
+cd ..
+find . -name "solarized-definitions.el"
+find . -name "solarized-definitions.el"
+man ls
+open index.html 
+open index.html
+ls
+mkdir Site
+ls
+mv index.html Site/
+ls
+clean
+ls
+rm #	
+rm \#index.html\# 
+ls
+rm index.html\~ logo.svg\~
+ls
+mv Site/site
+mv Site site
+mv Site x
+mv x site
+ls
+open logo.svg 
+cd site/
+ls
+mkdir static
+mv ../logo.svg ../Logo.png static/
+cd ..
+ls
+rm \#index.html\# 
+ls
+ls
+cd site/
+ls
+cd static/
+ls
+open Logo.png 
+rm logo.svg 
+ls
+cd ..
+mkdir style
+ls
+mv style/ static/
+mkdir img
+mv img/ static/
+mv static/Logo.png static/img/logo.png
+tree
+find-file static/style/cator_ruma.css
+ls
+cd Desktop/Cator\ Ruma\ Site/
+ls
+mv index.html site/
+find-file site/index.html 
+ls
+cd site/
+ls
+vi index.html 
