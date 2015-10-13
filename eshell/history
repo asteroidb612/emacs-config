@@ -1,20 +1,3 @@
-cd js
-ack module
-services/data.service.js
-find-file services/transaction.service.js 
-app.js  controllers  servicesls
-head controllers/* services/*
-head controllers/*
-cd controllers/
-clean
-ls
-clean
-cd ../services/
-find-file data
-cd ..
-ack watch
-find-file controllers/stats.controller.js 
-ls
 clean
 ls
 rm app.routes.js\~
@@ -126,3 +109,20 @@ ls
 cd site/
 ls
 vi index.html 
+ls
+cd ..
+cd ..
+ls
+git branch
+git checkout name-in-header
+ghci
+ghci
+runhaskell stats.hs
+runhaskell stats.hs 
+runhaskell stats.hs
+runhaskell stats.hs 
+ghci
+runhaskell stats.hs
+runhaskell stats.hs
+runhaskell stats.hs 
+ghci

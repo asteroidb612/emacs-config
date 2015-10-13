@@ -83,9 +83,6 @@
   (insert "cd ~/projects/ledger; source venv/bin/activate; cd backend; python ledger_server.py ")
   (switch-to-buffer-other-window "app.js"))
 
-(setq org-startup-indented t)
-(find-file "~/.projects.org")
-
 ;;(org-babel-do-load-languages
 ;; 'org-babel-load-languages
 ;; '((python . t)))
@@ -259,3 +256,17 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
     "Toggle `visual-line-mode' and `adaptive-wrap-prefix-mode' simultaneously."
     (adaptive-wrap-prefix-mode (if visual-line-mode 1 -1)))
   (add-hook 'visual-line-mode-hook 'my-activate-adaptive-wrap-prefix-mode))
+(add-hook 'org-mode-hook 'visual-line-mode)
+
+(setq org-startup-indented t)
+;;(shell)
+;;(split-window-right)
+;;(other-window 1)
+;;(find-file "~/.map.org")
+;;(split-window-below)
+;;(other-window 1)
+;;(find-file "~/.projects.org")
+;;(other-window 1)
+
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'prog-mode-hook #'show-paren-mode )
