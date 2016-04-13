@@ -1,3 +1,4 @@
+(toggle-frame-fullscreen)
 ;; This is for all emaxen. 
 ;; Aquaemacs preferences file at: ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 ;; Recursively add files to load path
@@ -22,8 +23,8 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
-(setq evil-find-skip-newlines t)
 (require 'evil)
+(setq evil-find-skip-newlines t)
 (evil-mode 1)
 ;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
 ;;(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
@@ -103,7 +104,8 @@
 
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa-stable" . "http://stable.melpa.org/packages/")
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (autoload 'extempore-mode "/usr/local/Cellar/extempore/0.59/extras/extempore.el" "" t)
 (add-to-list 'auto-mode-alist '("\\.xtm$" . extempore-mode))
@@ -120,36 +122,8 @@
   (interactive error))
 
 ;; Load packages so Custom can use them to theme
-(setq package-enable-at-startup nil) (package-initialize)
-
-                                        ; (custom-set-variables
-                                        ;  ;; custom-set-variables was added by Custom.
-                                        ;  ;; If you edit it by hand, you could mess it up, so be careful.
-                                        ;  ;; Your init file should contain only one such instance.
-                                        ;  ;; If there is more than one, they won't work right.
-                                        ;  '(custom-enabled-themes (quote (solarized-light)))
-                                        ;  '(custom-safe-themes
-                                        ;    (quote
-                                        ;     ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
-                                        ;  '(mac-command-modifier nil)
-                                        ;  '(mac-option-modifier (quote meta)))
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-
-(add-hook 'diary-list-entries-hook 'diary-sort-entries t)
-
-(require 'calfw)
-(require 'calfw-cal)
-(require 'calfw-ical)
-(require 'calfw-org)
-(defun google-cal ()
-  (interactive)
-  (cfw:open-ical-calendar"https://www.google.com/calendar/ical/dlazzeri1%40gmail.com/private-a4cb26c2b4d502bf59693bc7986450fc/basic.ics"))
+(setq package-enable-at-startup nil)
+(package-initialize)
 
 (defun page-count ()
   "How many pages in GoogleDocs will this fill w/ Times, 12, doublespace"
@@ -181,9 +155,16 @@
  '(custom-safe-themes
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(mac-command-modifier (quote super))
+ '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(mac-mouse-wheel-mode t)
- '(mac-option-modifier (quote meta)))
+ '(ns-alternate-modifier (quote meta))
+ '(ns-command-modifier (quote super))
+ '(org-agenda-files
+   (quote
+    ("~/.orgasm/classes/playwriting.org" "~/.orgasm/classes/political_science_research.org" "~/.orgasm/classes/numerical_analysis.org" "~/.orgasm/classes/linear_algebra.org" "~/.orgasm/classes/darwin_and_god.org" "~/.orgasm/agenda.org" "~/.orgasm/correspondence.org" "~/.orgasm/major.org" "~/.orgasm/recommendations.org" "~/.orgasm/schedule.org" "~/.orgasm/work.org" "~/.orgasm/virgil.org")))
+ '(package-selected-packages
+   (quote
+    (evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap))))
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
@@ -239,8 +220,7 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
 (global-set-key [escape] 'evil-exit-emacs-state)
 
-(custom-set-variables
- '(initial-frame-alist (quote ((fullscreen . maximized))))) ;; start maximized
+ ;; start maximized
 
 (setq magit-diff-options '("-w"))
 
@@ -270,3 +250,4 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'show-paren-mode )
+(find-file "~/.orgasm/agenda.org")
