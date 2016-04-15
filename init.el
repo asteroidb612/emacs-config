@@ -24,22 +24,26 @@
 (setq ido-everywhere t)
 
 (require 'evil)
+(require 'evil-leader)
+(global-evil-leader-mode +1)
+(evil-leader/set-leader "<SPC>")
+(evil-leader/set-key
+  "a" 'org-agenda
+  "b" 'switch-to-buffer
+  "k" (lambda () (interactive) (shell-command "/usr/local/bin/brightness 0"))
+  "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70")))
+
+
 (setq evil-find-skip-newlines t)
 (evil-mode 1)
+(add-hook 'org-agenda-mode-hook 
+	  (lambda () 
+	    (define-key org-agenda-mode-map "j" 'org-agenda-next-line)
+	    (define-key org-agenda-mode-map "k" 'org-agenda-previous-line)))
 ;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
 ;;(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
 ;;(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
 ;;(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
-
-;;;;Tree Mode (for reddit mode)
-;;(eval-after-load "tree-widget"
-;;  '(if (boundp 'tree-widget-themes-load-path)
-;;       (add-to-list 'tree-widget-themes-load-path "~/.emacs.d/")))
-;;(autoload 'imenu-tree "imenu-tree" "Imenu tree" t)
-;;(autoload 'tags-tree "tags-tree" "TAGS tree" t)
-
-;;(load-library "reddit.el")
-;;(require 'reddit)
 
 ;;Ace-Jump-Mode
 (require 'ace-jump-mode)
@@ -91,7 +95,6 @@
 ;;(setq python-shell-interpreter "ipython"
 ;;            python-shell-interpreter-args "-i")
 
-(require 'evil-leader)
 (add-to-list 'load-path "~/.emacs.d/lisp/evil-org-mode")
 (require 'evil-org)
 
@@ -104,7 +107,8 @@
 
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/")
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
 (autoload 'extempore-mode "/usr/local/Cellar/extempore/0.59/extras/extempore.el" "" t)
@@ -162,9 +166,14 @@
  '(org-agenda-files
    (quote
     ("~/.orgasm/classes/playwriting.org" "~/.orgasm/classes/political_science_research.org" "~/.orgasm/classes/numerical_analysis.org" "~/.orgasm/classes/linear_algebra.org" "~/.orgasm/classes/darwin_and_god.org" "~/.orgasm/agenda.org" "~/.orgasm/correspondence.org" "~/.orgasm/major.org" "~/.orgasm/recommendations.org" "~/.orgasm/schedule.org" "~/.orgasm/work.org" "~/.orgasm/virgil.org")))
+ '(org-agenda-skip-deadline-if-done t)
+ '(org-agenda-span (quote day))
+ '(org-agenda-todo-ignore-deadlines (quote all))
+ '(org-agenda-todo-ignore-scheduled (quote all))
  '(package-selected-packages
    (quote
-    (evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap))))
+    (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
+ '(visible-bell nil))
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
@@ -251,3 +260,10 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'show-paren-mode )
 (find-file "~/.orgasm/agenda.org")
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
