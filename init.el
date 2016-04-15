@@ -34,8 +34,11 @@
   "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70")))
 
 
+
 (setq evil-find-skip-newlines t)
 (evil-mode 1)
+;(require 'evil-magit)
+
 (add-hook 'org-agenda-mode-hook 
 	  (lambda () 
 	    (define-key org-agenda-mode-map "j" 'org-agenda-next-line)
@@ -267,3 +270,4 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
  ;; If there is more than one, they won't work right.
  )
 
+(require 'evil-magit)
