@@ -173,6 +173,7 @@
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
  '(org-agenda-todo-ignore-scheduled (quote all))
+ '(org-deadline-warning-days 3)
  '(package-selected-packages
    (quote
     (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
@@ -262,7 +263,8 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'show-paren-mode )
-(find-file "~/.orgasm/agenda.org")
+(org-agenda nil "n")
+(delete-other-windows)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
