@@ -11,7 +11,7 @@
 (add-to-list 'load-path "/usr/local/share/emacs/site-lisp")
 (setq org-src-fontify-natively t)
 
-                                        ;Disable opening message
+;;Disable opening message
 (setq inhibit-startup-message t
       inhibit-startup-echo-area-message t)  
 
@@ -22,6 +22,8 @@
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
+
+
 
 (require 'calfw)
 (require 'calfw-org)
@@ -42,9 +44,9 @@
 ;(require 'evil-magit)
 
 (add-hook 'org-agenda-mode-hook 
-	  (lambda () 
-	    (define-key org-agenda-mode-map "j" 'org-agenda-next-line)
-	    (define-key org-agenda-mode-map "k" 'org-agenda-previous-line)))
+          (lambda () 
+            (define-key org-agenda-mode-map "j" 'org-agenda-next-line)
+            (define-key org-agenda-mode-map "k" 'org-agenda-previous-line)))
 ;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
 ;;(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
 ;;(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
@@ -54,27 +56,27 @@
 (require 'ace-jump-mode)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
-                                        ;Make Ace-Jumps vim-like
+;Make Ace-Jumps vim-like
 (evil-define-motion evil-ace-jump-char-mode (count)
-  :type exclusive
-  (ace-jump-mode 5)
-  (recursive-edit))
+                    :type exclusive
+                    (ace-jump-mode 5)
+                    (recursive-edit))
 
 (evil-define-motion evil-ace-jump-line-mode (count)
-  :type line
-  (ace-jump-mode 9)
-  (recursive-edit))
+                    :type line
+                    (ace-jump-mode 9)
+                    (recursive-edit))
 
 (evil-define-motion evil-ace-jump-word-mode (count)
-  :type exclusive
-  (ace-jump-mode 1)
-  (recursive-edit))
+                    :type exclusive
+                    (ace-jump-mode 1)
+                    (recursive-edit))
 
 (evil-define-motion evil-ace-jump-char-direct-mode (count)
-  :type inclusive
-  (ace-jump-mode 5)
-  (forward-char 1)
-  (recursive-edit))
+                    :type inclusive
+                    (ace-jump-mode 5)
+                    (forward-char 1)
+                    (recursive-edit))
 
 (add-hook 'ace-jump-mode-end-hook 'exit-recursive-edit)
 (define-key evil-normal-state-map (kbd "SPC") 'ace-jump-char-mode)
@@ -121,14 +123,14 @@
 (setq user-extempore-directory "/path/to/extempore/")
 
 (condition-case nil 
-    ;;  (progn
+                ;;  (progn
 
-    ;; Clean up that GUI
-    (scroll-bar-mode -1)
-  (tool-bar-mode 0)
-  (menu-bar-mode 0)
+                ;; Clean up that GUI
+                (scroll-bar-mode -1)
+                (tool-bar-mode 0)
+                (menu-bar-mode 0)
 
-  (interactive error))
+                (interactive error))
 
 ;; Load packages so Custom can use them to theme
 (setq package-enable-at-startup nil)
@@ -146,15 +148,15 @@
 
 (lexical-let ((default-color (cons (face-background 'mode-line)
                                    (face-foreground 'mode-line))))
-  (add-hook 'post-command-hook
-            (lambda ()
-              (let ((color (cond ((minibufferp) default-color)
-                                 ((evil-insert-state-p) '("#e80000" . "#ffffff"))
-                                 ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
-                                 ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
-                                 (t default-color))))
-                (set-face-background 'mode-line (car color))
-                (set-face-foreground 'mode-line (cdr color))))))
+             (add-hook 'post-command-hook
+                       (lambda ()
+                         (let ((color (cond ((minibufferp) default-color)
+                                            ((evil-insert-state-p) '("#e80000" . "#ffffff"))
+                                            ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
+                                            ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
+                                            (t default-color))))
+                           (set-face-background 'mode-line (car color))
+                           (set-face-foreground 'mode-line (cdr color))))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -173,7 +175,7 @@
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/classes/playwriting.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/schedule.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/schedule.org" "~/.mjolner/classes/playwriting.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
@@ -226,11 +228,11 @@
 
 (defun minibuffer-keyboard-quit ()
   "Abort recursive edit.
-In Delete Selection mode, if the mark is active, just deactivate it;
-then it takes a second \\[keyboard-quit] to abort the minibuffer."
+  In Delete Selection mode, if the mark is active, just deactivate it;
+  then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (interactive)
   (if (and delete-selection-mode transient-mark-mode mark-active)
-      (setq deactivate-mark  t)
+    (setq deactivate-mark  t)
     (when (get-buffer "*Completions*") (delete-windows-on "*Completions*"))
     (abort-recursive-edit)))
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
@@ -242,7 +244,7 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
 (global-set-key [escape] 'evil-exit-emacs-state)
 
- ;; start maximized
+;; start maximized
 
 (setq magit-diff-options '("-w"))
 
