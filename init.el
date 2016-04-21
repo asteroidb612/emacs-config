@@ -23,6 +23,8 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
+(require 'calfw)
+(require 'calfw-org)
 (require 'evil)
 (require 'evil-leader)
 (global-evil-leader-mode +1)
@@ -162,18 +164,25 @@
  '(custom-safe-themes
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
+ '(exec-path
+   (quote
+    ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/Cellar/emacs/24.5/libexec/emacs/24.5/x86_64-apple-darwin15.4.0")))
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(mac-mouse-wheel-mode t)
  '(ns-alternate-modifier (quote meta))
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.orgasm/classes/playwriting.org" "~/.orgasm/classes/political_science_research.org" "~/.orgasm/classes/numerical_analysis.org" "~/.orgasm/classes/linear_algebra.org" "~/.orgasm/classes/darwin_and_god.org" "~/.orgasm/agenda.org" "~/.orgasm/correspondence.org" "~/.orgasm/major.org" "~/.orgasm/recommendations.org" "~/.orgasm/schedule.org" "~/.orgasm/work.org" "~/.orgasm/virgil.org")))
+    ("~/.mjolner/classes/playwriting.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/schedule.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
  '(org-agenda-todo-ignore-scheduled (quote all))
  '(org-deadline-warning-days 3)
+ '(org-format-latex-options
+   (quote
+    (:foreground default :background default :scale 1.0 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
+                 ("begin" "$1" "$" "$$" "\\(" "\\["))))
  '(package-selected-packages
    (quote
     (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
