@@ -1,4 +1,4 @@
-(toggle-frame-fullscreen)
+;; (toggle-frame-fullscreen)
 ;; This is for all emaxen. 
 ;; Aquaemacs preferences file at: ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 ;; Recursively add files to load path
@@ -23,8 +23,6 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
-
-
 (require 'calfw)
 (require 'calfw-org)
 (require 'evil)
@@ -34,6 +32,7 @@
 (evil-leader/set-key
   "a" 'org-agenda
   "b" 'switch-to-buffer
+  "c" 'cfw:open-org-calendar
   "k" (lambda () (interactive) (shell-command "/usr/local/bin/brightness 0"))
   "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70")))
 
@@ -41,66 +40,12 @@
 
 (setq evil-find-skip-newlines t)
 (evil-mode 1)
-;(require 'evil-magit)
+                                        ;(require 'evil-magit)
 
 (add-hook 'org-agenda-mode-hook 
           (lambda () 
             (define-key org-agenda-mode-map "j" 'org-agenda-next-line)
             (define-key org-agenda-mode-map "k" 'org-agenda-previous-line)))
-;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
-;;(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
-;;(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
-;;(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
-
-;;Ace-Jump-Mode
-(require 'ace-jump-mode)
-(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
-
-;Make Ace-Jumps vim-like
-(evil-define-motion evil-ace-jump-char-mode (count)
-                    :type exclusive
-                    (ace-jump-mode 5)
-                    (recursive-edit))
-
-(evil-define-motion evil-ace-jump-line-mode (count)
-                    :type line
-                    (ace-jump-mode 9)
-                    (recursive-edit))
-
-(evil-define-motion evil-ace-jump-word-mode (count)
-                    :type exclusive
-                    (ace-jump-mode 1)
-                    (recursive-edit))
-
-(evil-define-motion evil-ace-jump-char-direct-mode (count)
-                    :type inclusive
-                    (ace-jump-mode 5)
-                    (forward-char 1)
-                    (recursive-edit))
-
-(add-hook 'ace-jump-mode-end-hook 'exit-recursive-edit)
-(define-key evil-normal-state-map (kbd "SPC") 'ace-jump-char-mode)
-
-(defun open-ledger-project ()
-  ;;  (let ((default-directory "~/projects/ledger/ionic-ledger"))
-  (split-window-right)
-  (other-window 1)
-  (shell)
-  (rename-buffer "ionic server")
-  (insert "cd ~/projects/ledger/ionic-ledger; ionic serve ")
-  (split-window-below)
-  (other-window 1)
-  (shell)
-  (rename-buffer "flask server")
-  (insert "cd ~/projects/ledger; source venv/bin/activate; cd backend; python ledger_server.py ")
-  (switch-to-buffer-other-window "app.js"))
-
-;;(org-babel-do-load-languages
-;; 'org-babel-load-languages
-;; '((python . t)))
-;;
-;;(setq python-shell-interpreter "ipython"
-;;            python-shell-interpreter-args "-i")
 
 (add-to-list 'load-path "~/.emacs.d/lisp/evil-org-mode")
 (require 'evil-org)
@@ -118,19 +63,11 @@
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
-(autoload 'extempore-mode "/usr/local/Cellar/extempore/0.59/extras/extempore.el" "" t)
-(add-to-list 'auto-mode-alist '("\\.xtm$" . extempore-mode))
-(setq user-extempore-directory "/path/to/extempore/")
-
 (condition-case nil 
-                ;;  (progn
-
-                ;; Clean up that GUI
-                (scroll-bar-mode -1)
-                (tool-bar-mode 0)
-                (menu-bar-mode 0)
-
-                (interactive error))
+    (scroll-bar-mode -1)
+  (tool-bar-mode 0)
+  (menu-bar-mode 0)
+  (interactive))
 
 ;; Load packages so Custom can use them to theme
 (setq package-enable-at-startup nil)
@@ -146,36 +83,21 @@
   (interactive)
   (clipboard-kill-ring-save (point-min) (point-max)))
 
-(lexical-let ((default-color (cons (face-background 'mode-line)
-                                   (face-foreground 'mode-line))))
-             (add-hook 'post-command-hook
-                       (lambda ()
-                         (let ((color (cond ((minibufferp) default-color)
-                                            ((evil-insert-state-p) '("#e80000" . "#ffffff"))
-                                            ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
-                                            ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
-                                            (t default-color))))
-                           (set-face-background 'mode-line (car color))
-                           (set-face-foreground 'mode-line (cdr color))))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (sanityinc-solarized-light)))
  '(custom-safe-themes
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(exec-path
-   (quote
-    ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/Cellar/emacs/24.5/libexec/emacs/24.5/x86_64-apple-darwin15.4.0")))
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(mac-mouse-wheel-mode t)
  '(ns-alternate-modifier (quote meta))
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/schedule.org" "~/.mjolner/classes/playwriting.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/crazyhorse_schedule.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
@@ -232,7 +154,7 @@
   then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (interactive)
   (if (and delete-selection-mode transient-mark-mode mark-active)
-    (setq deactivate-mark  t)
+      (setq deactivate-mark  t)
     (when (get-buffer "*Completions*") (delete-windows-on "*Completions*"))
     (abort-recursive-edit)))
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
