@@ -97,7 +97,7 @@
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/crazyhorse_schedule.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/agenda.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
@@ -206,3 +206,7 @@
  )
 
 (require 'evil-magit)
+
+;;Adding this gets rid of several org problems 
+;; including not clocking or exporting 
+(org-reload)

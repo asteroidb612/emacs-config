@@ -2,3 +2,11 @@
 backup/
 auto-save-list/
 /elpa
+/.org-id-locations
+/init.el~
+org-gcal
+url/cache/
+url/cookies
+/ido.last
+/ido.last~
+url/cookies
