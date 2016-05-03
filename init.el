@@ -1,4 +1,3 @@
-;; (toggle-frame-fullscreen)
 ;; This is for all emaxen. 
 ;; Aquaemacs preferences file at: ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 ;; Recursively add files to load path
@@ -33,6 +32,7 @@
   "a" 'org-agenda
   "b" 'switch-to-buffer
   "c" 'cfw:open-org-calendar
+  "s" 'toggle-frame-fullscreen
   "k" (lambda () (interactive) (shell-command "/usr/local/bin/brightness 0"))
   "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70")))
 
@@ -91,13 +91,12 @@
  '(custom-safe-themes
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(mac-mouse-wheel-mode t)
  '(ns-alternate-modifier (quote meta))
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org"  "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/map.org" "~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
