@@ -98,6 +98,7 @@
    (quote
     ("~/.mjolner/map.org" "~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
+ '(org-agenda-skip-scheduled-if-done t)
  '(org-agenda-span (quote day))
  '(org-agenda-todo-ignore-deadlines (quote all))
  '(org-agenda-todo-ignore-scheduled (quote all))
@@ -106,6 +107,7 @@
    (quote
     (:foreground default :background default :scale 1.0 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
                  ("begin" "$1" "$" "$$" "\\(" "\\["))))
+ '(org-todo-keywords (quote ((sequence "TODO" "DOING" "DONE"))))
  '(package-selected-packages
    (quote
     (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
