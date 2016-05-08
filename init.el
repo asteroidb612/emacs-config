@@ -96,12 +96,14 @@
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/map.org" "~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/budget.org" "~/.mjolner/map.org" "~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-skip-scheduled-if-done t)
  '(org-agenda-span (quote day))
+ '(org-agenda-start-on-weekday nil)
  '(org-agenda-todo-ignore-deadlines (quote all))
  '(org-agenda-todo-ignore-scheduled (quote all))
+ '(org-archive-location "~/.mjolner/archive.org::* From %s")
  '(org-deadline-warning-days 3)
  '(org-format-latex-options
    (quote
@@ -197,6 +199,7 @@
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'show-paren-mode )
+(find-file "~/.mjolner/agenda.org")
 (org-agenda nil "n")
 (delete-other-windows)
 (custom-set-faces
@@ -204,10 +207,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 150 :width normal :foundry "nil" :family "Menlo")))))
 
 (require 'evil-magit)
 
 ;;Adding this gets rid of several org problems 
 ;; including not clocking or exporting 
 (org-reload)
+(evil-set-initial-state 'org-agenda-mode 'emacs)
+(evil-set-initial-state 'magit-popup-mode 'emacs)
