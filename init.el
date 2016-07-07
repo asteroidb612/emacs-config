@@ -33,10 +33,10 @@
   "b" 'switch-to-buffer
   "c" 'cfw:open-org-calendar
   "s" 'toggle-frame-fullscreen
+  "q" (lambda () (interactive) 'evil-record-macro
+  "w" (lambda () (interactive) (list-buffers) (other-window 1))
   "k" (lambda () (interactive) (shell-command "/usr/local/bin/brightness 0"))
-  "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70")))
-
-
+  "j" (lambda () (interactive) (shell-command "/usr/local/bin/brightness .70"))))
 
 (setq evil-find-skip-newlines t)
 (evil-mode 1)
@@ -96,7 +96,7 @@
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/budget.org" "~/.mjolner/map.org" "~/.mjolner/agenda.org" "~/.mjolner/prof_dates.org" "~/.mjolner/crazyhorse.org" "~/schedule.org" "~/.mjolner/classes/political_science_research.org" "~/.mjolner/classes/numerical_analysis.org" "~/.mjolner/classes/linear_algebra.org" "~/.mjolner/classes/darwin_and_god.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/agenda.org" "~/.mjolner/pietas.org" "~/.mjolner/classes/physics.org" "~/.mjolner/pensieve.org" "~/.mjolner/budget.org" "~/.mjolner/map.org" "~/.mjolner/prof_dates.org" "~/schedule.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-skip-scheduled-if-done t)
  '(org-agenda-span (quote day))
@@ -109,7 +109,7 @@
    (quote
     (:foreground default :background default :scale 1.0 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
                  ("begin" "$1" "$" "$$" "\\(" "\\["))))
- '(org-todo-keywords (quote ((sequence "TODO" "DOING" "DONE"))))
+ '(org-todo-keywords (quote ((sequence "TODO" "DOING" "|" "DONE" "SKIPPED"))))
  '(package-selected-packages
    (quote
     (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
@@ -162,6 +162,11 @@
     (abort-recursive-edit)))
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
 (define-key evil-visual-state-map [escape] 'keyboard-quit)
+(define-key evil-normal-state-map (kbd "q") (lambda () 
+                                              (interactive) 
+                                              (if (eq 1 (count-windows))
+                                                      (next-buffer)
+                                                      (delete-window))))
 (define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
 (define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
 (define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
@@ -200,8 +205,6 @@
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'show-paren-mode )
 (find-file "~/.mjolner/agenda.org")
-(org-agenda nil "n")
-(delete-other-windows)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
