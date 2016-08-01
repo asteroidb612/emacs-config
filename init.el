@@ -88,6 +88,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(blink-cursor-mode nil)
+ '(cursor-type (quote bar))
  '(custom-safe-themes
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
@@ -96,7 +98,7 @@
  '(ns-command-modifier (quote super))
  '(org-agenda-files
    (quote
-    ("~/.mjolner/agenda.org" "~/.mjolner/pietas.org" "~/.mjolner/classes/physics.org" "~/.mjolner/pensieve.org" "~/.mjolner/budget.org" "~/.mjolner/map.org" "~/.mjolner/prof_dates.org" "~/schedule.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
+    ("~/.mjolner/facillitator.org" "~/.mjolner/agenda.org" "~/.mjolner/pietas.org" "~/.mjolner/classes/physics.org" "~/.mjolner/pensieve.org" "~/.mjolner/budget.org" "~/.mjolner/map.org" "~/.mjolner/prof_dates.org" "~/schedule.org" "~/.mjolner/correspondence.org" "~/.mjolner/major.org" "~/.mjolner/recommendations.org" "~/.mjolner/work.org" "~/.mjolner/virgil.org")))
  '(org-agenda-skip-deadline-if-done t)
  '(org-agenda-skip-scheduled-if-done t)
  '(org-agenda-span (quote day))
@@ -113,7 +115,8 @@
  '(package-selected-packages
    (quote
     (goto-chg goto-last-change evil-leader evil yaml-mode web-mode solarized-theme sass-mode request rainbow-delimiters ox-twbs magit helm haskell-mode hackernews git-rebase-mode git-commit-mode flymake-gjshint flycheck-tip discover debbugs csv-mode color-theme-sanityinc-solarized adaptive-wrap)))
- '(visible-bell nil))
+ '(visible-bell nil)
+ '(x-stretch-cursor nil))
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
@@ -219,3 +222,6 @@
 (org-reload)
 (evil-set-initial-state 'org-agenda-mode 'emacs)
 (evil-set-initial-state 'magit-popup-mode 'emacs)
+
+;;Cleaner margins
+(set-face-attribute 'fringe nil :background "#FFFFFF" :foreground "#2E2920")
