@@ -170,6 +170,7 @@
                                               (if (eq 1 (count-windows))
                                                       (next-buffer)
                                                       (delete-window))))
+;(define-key evil-normal-state-map (kbd "/") 'avy-goto-word-or-subword-1)
 (define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
 (define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
 (define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
@@ -213,7 +214,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 150 :width normal :foundry "nil" :family "Menlo")))))
+ '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 150 :width normal :foundry "nil" :family "Menlo"))))
+ '(mode-line ((t (:background "grey90" :foreground "black" :overline t :weight normal :height 0.8 :width normal))))
+ '(mode-line-inactive ((t (:inherit mode-line :background "gray100" :foreground "grey20" :weight light)))))
 
 (require 'evil-magit)
 
@@ -225,3 +228,7 @@
 
 ;;Cleaner margins
 (set-face-attribute 'fringe nil :background "#FFFFFF" :foreground "#2E2920")
+
+
+(setq org-clock-persist t)
+(org-clock-persistence-insinuate)
