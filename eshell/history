@@ -1,14 +1,3 @@
-clean
-ls
-rm app.routes.js\~
-ls
-mkdir templates
-rm templates/
-ls
-rm -rf templates
-ls
-cd ~/Desktop/ExpenseTracker/www/
-ls
 tree templates/
 find-file templates/overview.tpl.htm 
 cd -
@@ -126,3 +115,14 @@ runhaskell stats.hs
 runhaskell stats.hs
 runhaskell stats.hs 
 ghci
+git status
+git diff reports.py
+python sources.py
+python sources.py
+python sources.py
+ipython
+curl http://eml-err-msg-10.com/
+bg
+man curl
+man man
+man curl | wc
